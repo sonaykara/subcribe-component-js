@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Subcribe area -->
+    <div class="main" id="main">
+      <div class="section">
+        <div class="left-side">
+          <h1>Stay updated!</h1>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+          <div class="text-area">
+            <p>
+              <img src="./assest/images/icon-list.svg" alt="" /><span
+                >Product discovery and building what matters</span
+              >
+            </p>
+            <p>
+              <img src="./assest/images/icon-list.svg" alt="" /><span
+                >Measuring to ensure updates are a success
+              </span>
+            </p>
+            <p>
+              <img src="./assest/images/icon-list.svg" alt="" /><span>
+                And much more!</span
+              >
+            </p>
+          </div>
+          <div class="input-area">
+            <label for="email">Email Adress</label>
+
+            <input type="email" id="email" />
+            <div id="required" class="requied"></div>
+            <button id="btn">Subscribe to monthly newsletter</button>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="lef-side-img">
+            <img
+              src="./assest/images/illustration-sign-up-desktop.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- pop-up area -->
+
+    <div class="pop-up-area" id="pop-up-area">
+      <div class="pop-up">
+        <img src="./assest/images/icon-success.svg" alt="" />
+        <h1>Thanks for subscribing!</h1>
+        <p>
+          A confirmation email has been sent to ash@loremcompany.com. Please
+          open it and click the button inside to confirm your subscription.
+        </p>
+        <button id="pop-up-btn">Dismiss message</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
