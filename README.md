@@ -1,5 +1,5 @@
 # subcribe-component-js
-Subcribe-Component whit JavaScript , Scss , Html
+Subcribe-Component, It is developed using JavaScript, Scss and Html.
 
 
 <br>
