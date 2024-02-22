@@ -14,7 +14,7 @@ Subcribe-Component whit JavaScript , Scss , Html
 ## Features
 - Enter your e-mail and subscribe
 
-<br><br>
+<br>
 
 
 <img src  ="https://github.com/sonaykara/number-of-characters-validate-js/assets/108528598/ddf4a385-6dc0-4706-8ab0-98466fee90f9" width="700" height="300">
